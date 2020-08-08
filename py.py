@@ -12,13 +12,13 @@ mail.starttls()
 mail.ehlo()
   
 # Authentication 
-mail.login("sharukkhan160@gmail.com", "banu12345") 
+mail.login("sender@gmail.com", "password") 
   
 # message to be sent 
-message = "hi onu ila summa bore adichudhu adhan hahaha........"
+message = "message to be send ........"
   
 # sending the mail 
-mail.sendmail("sharukkhan", "meharinarifa25@gmail.com", message) 
+mail.sendmail("sender", "reciver@gmail.com", message) 
   
 # terminating the session 
 mail.quit() 
